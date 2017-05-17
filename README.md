@@ -22,7 +22,6 @@ cd {NEW_REPO_NAME}
 ###2. Install Packages & fill-out parameters
 ```
 composer install
-bash dev-setup.sh
 ```
 
 ###3. Setup Database & Load Fixtures
