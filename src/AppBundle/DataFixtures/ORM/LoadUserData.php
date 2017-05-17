@@ -13,7 +13,7 @@ class LoadUserData implements FixtureInterface
         $user = new User();
         $user->setUsername('user');
         $user->setPlainPassword('1234');
-        $user->setEmail('user@caxy.com');
+        $user->setEmail('user@wassa.fr');
         $user->setEnabled(true);
         $user->addRole('ROLE_USER');
         $manager->persist($user);
@@ -21,7 +21,7 @@ class LoadUserData implements FixtureInterface
         $admin = new User();
         $admin->setUsername('admin');
         $admin->setPlainPassword('1234');
-        $admin->setEmail('admin@caxy.com');
+        $admin->setEmail('admin@wassa.fr');
         $admin->setEnabled(true);
         $admin->addRole('ROLE_ADMIN');
         $admin->addRole('ROLE_SONATA_ADMIN');
@@ -30,7 +30,7 @@ class LoadUserData implements FixtureInterface
         $superAdmin = new User();
         $superAdmin->setUsername('superadmin');
         $superAdmin->setPlainPassword('1234');
-        $superAdmin->setEmail('superadmin@caxy.com');
+        $superAdmin->setEmail('superadmin@wassa.fr');
         $superAdmin->setEnabled(true);
         $superAdmin->addRole('ROLE_SUPER_ADMIN');
         $admin->addRole('ROLE_SONATA_ADMIN');
